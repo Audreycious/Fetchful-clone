@@ -17,9 +17,9 @@ class App extends Component {
   state = initialState;
 
   performFetch = () =>
-    fetch('http://localhost:8000/pokemon?name=pik&type=Electric', {
+    fetch('http://localhost:8000/movie', {
       headers: {
-        Authorization: 'Bearer MY-API-TOKEN',
+        Authorization: 'Bearer 5f9598d4-cdf8-11e9-a32f-2a2ae2dbcce4',
       },
     });
 
